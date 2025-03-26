@@ -1,4 +1,5 @@
-num=0
+num=1
 while(num<100):
-    num+=7
-    print(num)
+    if(num/7):
+        print(num)
+    num=num+1    
